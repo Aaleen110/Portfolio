@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Portfolio/static/js/main.fb524497.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.fb524497.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.dc08a4dc.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.dc08a4dc.js.map",
+    "static/js/2.f9a9ee69.chunk.js": "/Portfolio/static/js/2.f9a9ee69.chunk.js",
+    "static/js/2.f9a9ee69.chunk.js.map": "/Portfolio/static/js/2.f9a9ee69.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.c04382576d0221e3af3c4a4372efd697.js": "/Portfolio/precache-manifest.c04382576d0221e3af3c4a4372efd697.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f9a9ee69.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f9a9ee69.chunk.js.LICENSE.txt",
+    "static/media/aaleen.png": "/Portfolio/static/media/aaleen.4478bafd.png",
+    "static/media/aziziya_app.webp": "/Portfolio/static/media/aziziya_app.79026dbe.webp",
+    "static/media/dribbble_icon.png": "/Portfolio/static/media/dribbble_icon.6ecc7b75.png",
+    "static/media/email_icon.png": "/Portfolio/static/media/email_icon.549f119d.png",
+    "static/media/fb_icon.png": "/Portfolio/static/media/fb_icon.53f6bf4c.png",
+    "static/media/instagram_icon.webp": "/Portfolio/static/media/instagram_icon.2e86742d.webp",
+    "static/media/javascript.png": "/Portfolio/static/media/javascript.fbfee0f7.png",
+    "static/media/livehealth_app.webp": "/Portfolio/static/media/livehealth_app.cc39f2c3.webp",
+    "static/media/livehealthdoc_app.webp": "/Portfolio/static/media/livehealthdoc_app.b647d873.webp",
+    "static/media/livehealthlogo.jpg": "/Portfolio/static/media/livehealthlogo.382e0b9e.jpg",
+    "static/media/passwordgenerator_app.webp": "/Portfolio/static/media/passwordgenerator_app.368473ce.webp",
+    "static/media/quiz_app.webp": "/Portfolio/static/media/quiz_app.e8186222.webp",
+    "static/media/smartwomen_app.webp": "/Portfolio/static/media/smartwomen_app.cf8550ca.webp",
+    "static/media/twitter_icon.webp": "/Portfolio/static/media/twitter_icon.c388521a.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc08a4dc.js",
+    "static/js/2.f9a9ee69.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.fb524497.chunk.js"
+  ]
+}
