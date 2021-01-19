@@ -6,6 +6,26 @@
   height: 40vmin;
   pointer-events: none;
 }
+.profile-logo{
+  height: 200px;
+  width:200px;
+  border-radius: 100px;
+}
+
+.sign-style{
+  height: 400px;
+  width:400px;
+}
+
+.socio-connect-icons{
+  height: 18px;
+  width:18px;
+}
+
+.socio-connect-lg-icons{
+  height: 30px;
+  width:30px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
