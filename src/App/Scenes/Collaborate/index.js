@@ -50,10 +50,10 @@ export default class Collaborate extends Component {
                         <View style={{ backgroundColor: "#1E1E1E", height: '60%', width: "90%", borderTopRightRadius: 16, borderBottomRightRadius: 16, alignItems: 'center' }}>
                             <View style={{ flexDirection: 'row', width: "90%" }}>
                                 <View style={{ flex: 1, margin: 32 }}>
-                                    <Text style={{ fontSize: 20, color: Colors.fontGrey, marginLeft: 8 }}>Name</Text>
+                                    <Text style={{ fontSize: 20, color: '#fff', marginLeft: 8 }}>Name</Text>
                                     <View style={{ borderWidth: 1, borderColor: '#ccc', height: 40, borderRadius: 8, width: '100%' }}>
                                         <TextInput
-                                            style={{ height: 40, fontSize: 18, color: 'grey', outlineColor: "#ffffff", outline: 'none', marginLeft: 8 }}
+                                            style={{ height: 40, fontSize: 18, color: 'grey', outlineColor: "#ffffff00", outline: 'none', marginLeft: 8 }}
                                             autoCapitalize={true}
                                             selectionColor={'red'}
                                             onChangeText={name => { this.setState({ name }) }}
@@ -62,10 +62,10 @@ export default class Collaborate extends Component {
                                     </View>
                                 </View>
                                 <View style={{ flex: 1, margin: 32 }}>
-                                    <Text style={{ fontSize: 20, color: Colors.fontGrey, marginLeft: 8 }}>Email</Text>
+                                    <Text style={{ fontSize: 20, color: '#fff', marginLeft: 8 }}>Email</Text>
                                     <View style={{ borderWidth: 1, borderColor: '#ccc', height: 40, borderRadius: 8, width: '100%' }}>
                                         <TextInput
-                                            style={{ height: 40, fontSize: 18, color: 'grey', outlineColor: "#ffffff", marginLeft: 8, outline: 'none' }}
+                                            style={{ height: 40, fontSize: 18, color: 'grey', outlineColor: "#ffffff00", marginLeft: 8, outline: 'none' }}
                                             autoCapitalize={true}
                                             selectionColor={'red'}
                                             onChangeText={email => { this.setState({ email }) }}
@@ -76,10 +76,10 @@ export default class Collaborate extends Component {
                             </View>
 
                             <View style={{ flex: 2, width: '90%', padding: 32, justifyContent: 'flex-start', marginTop: -40 }}>
-                                <Text style={{ fontSize: 20, color: Colors.fontGrey, marginLeft: 8 }}>Message</Text>
+                                <Text style={{ fontSize: 20, color: '#fff', marginLeft: 8 }}>Message</Text>
                                 <View style={{ borderWidth: 1, borderColor: '#ccc', height: 200, borderRadius: 8 }}>
                                     <TextInput
-                                        style={{ height: 182, fontSize: 18, color: 'grey', outlineColor: "#ffffff", outline: 'none', marginLeft: 8, marginTop: 8, marginRight: 8 }}
+                                        style={{ height: 182, fontSize: 18, color: 'grey', outlineColor: "#ffffff00", outline: 'none', marginLeft: 8, marginTop: 8, marginRight: 8 }}
                                         autoCapitalize={true}
                                         selectionColor={'red'}
                                         multiline={true}
@@ -132,7 +132,7 @@ export default class Collaborate extends Component {
                                 style={{ height: 280, width: 280 }}
                                 src={sleepy_cat} className="sign-style" />
 
-                            <Text style={{ fontFamily: 'Avenir', color: '#1A1A1A', fontSize: 20, textAlign: 'center' }}>Thank you for taking some time and reaching out. I will get back to you as soon as possible, Until then cheers and have a great life!</Text>
+                            <Text style={{ fontFamily: 'Avenir', color: '#1A1A1A', fontSize: 20, textAlign: 'center' }}>Thank you for taking some time and reaching out. I will get back to you as soon as possible, Until then cheers and have a great day!</Text>
 
                             <Ripple
                                 onPress={() => this.setState({ showThanksModal: false })}
