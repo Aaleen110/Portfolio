@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "869d5e3a381d44f15d963b6552f7f5ce",
+    "revision": "7e7a65ca29bb6368d88a827697a8d3aa",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "00a6373d096cf5a91ae7",
+    "revision": "91d0edf5ae665dea9514",
     "url": "/Portfolio/static/css/main.759077ea.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.d0748181.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00a6373d096cf5a91ae7",
-    "url": "/Portfolio/static/js/main.346a80ce.chunk.js"
+    "revision": "91d0edf5ae665dea9514",
+    "url": "/Portfolio/static/js/main.3600c0bb.chunk.js"
   },
   {
     "revision": "2808ec3bca3a9cfb923d",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/android_color.545d2741.svg"
   },
   {
-    "revision": "79026dbecafa62b405e08224a9ce2d58",
-    "url": "/Portfolio/static/media/aziziya_app.79026dbe.webp"
+    "revision": "dbab44017a15e6996b9eca4a991a1101",
+    "url": "/Portfolio/static/media/aziziya_app.dbab4401.png"
   },
   {
     "revision": "35dfd40605849b6603dbdb2e37a56a35",
@@ -112,12 +112,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/livehealth.a682eb73.svg"
   },
   {
-    "revision": "cc39f2c3df2018a356170c548045a7f3",
-    "url": "/Portfolio/static/media/livehealth_app.cc39f2c3.webp"
+    "revision": "283701e9d1f877a2f3f0cad8c489e83e",
+    "url": "/Portfolio/static/media/livehealth_app.283701e9.png"
   },
   {
-    "revision": "b647d873bda7dc441ca003b06fffc422",
-    "url": "/Portfolio/static/media/livehealthdoc_app.b647d873.webp"
+    "revision": "e98f632bb635096940218040819db180",
+    "url": "/Portfolio/static/media/livehealthdoc_app.e98f632b.jpg"
   },
   {
     "revision": "24be793aeeb1c3c158bc721e3d8f2bea",
@@ -128,12 +128,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/node_color.30faabe3.svg"
   },
   {
-    "revision": "368473ce3ce291eeceef2bbf4587e9dc",
-    "url": "/Portfolio/static/media/passwordgenerator_app.368473ce.webp"
+    "revision": "15d8f7d4eaf329912b099c4290114985",
+    "url": "/Portfolio/static/media/passwordgenerator_app.15d8f7d4.png"
   },
   {
-    "revision": "e818622294ad0a0c4ebedf9ee8b8a008",
-    "url": "/Portfolio/static/media/quiz_app.e8186222.webp"
+    "revision": "fae7b08fbceb3d3c6f1ec8ceb86bbab9",
+    "url": "/Portfolio/static/media/quiz_app.fae7b08f.png"
   },
   {
     "revision": "f4cccc0c044bcf3ac63d589fe7c3ae50",
@@ -168,7 +168,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/sleepy_cat.a19d3fc1.svg"
   },
   {
-    "revision": "cf8550ca41843035e2e7666ca360f0df",
-    "url": "/Portfolio/static/media/smartwomen_app.cf8550ca.webp"
+    "revision": "1182c85ca71b06b24f2649064ddc8169",
+    "url": "/Portfolio/static/media/smartwomen_app.1182c85c.png"
   }
 ]);

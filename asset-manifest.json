@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.759077ea.chunk.css",
-    "main.js": "/Portfolio/static/js/main.346a80ce.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.346a80ce.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.3600c0bb.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.3600c0bb.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.dc08a4dc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.dc08a4dc.js.map",
     "static/js/2.d0748181.chunk.js": "/Portfolio/static/js/2.d0748181.chunk.js",
     "static/js/2.d0748181.chunk.js.map": "/Portfolio/static/js/2.d0748181.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.f83a75288c53151a205da785fa917c24.js": "/Portfolio/precache-manifest.f83a75288c53151a205da785fa917c24.js",
+    "precache-manifest.6f6c4769832121e5dc0cc4213fbb34e5.js": "/Portfolio/precache-manifest.6f6c4769832121e5dc0cc4213fbb34e5.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/main.759077ea.chunk.css.map": "/Portfolio/static/css/main.759077ea.chunk.css.map",
     "static/js/2.d0748181.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d0748181.chunk.js.LICENSE.txt",
     "static/media/aaleen_new.png": "/Portfolio/static/media/aaleen_new.f1407796.png",
     "static/media/android.svg": "/Portfolio/static/media/android.761e590c.svg",
     "static/media/android_color.svg": "/Portfolio/static/media/android_color.545d2741.svg",
-    "static/media/aziziya_app.webp": "/Portfolio/static/media/aziziya_app.79026dbe.webp",
+    "static/media/aziziya_app.png": "/Portfolio/static/media/aziziya_app.dbab4401.png",
     "static/media/behance.svg": "/Portfolio/static/media/behance.35dfd406.svg",
     "static/media/copious.svg": "/Portfolio/static/media/copious.7e77bd0f.svg",
     "static/media/core_principles.png": "/Portfolio/static/media/core_principles.09d3236e.png",
@@ -34,12 +34,12 @@
     "static/media/javascript_color.svg": "/Portfolio/static/media/javascript_color.421ce383.svg",
     "static/media/linkedin_icon.svg": "/Portfolio/static/media/linkedin_icon.800096c7.svg",
     "static/media/livehealth.svg": "/Portfolio/static/media/livehealth.a682eb73.svg",
-    "static/media/livehealth_app.webp": "/Portfolio/static/media/livehealth_app.cc39f2c3.webp",
-    "static/media/livehealthdoc_app.webp": "/Portfolio/static/media/livehealthdoc_app.b647d873.webp",
+    "static/media/livehealth_app.png": "/Portfolio/static/media/livehealth_app.283701e9.png",
+    "static/media/livehealthdoc_app.jpg": "/Portfolio/static/media/livehealthdoc_app.e98f632b.jpg",
     "static/media/node.svg": "/Portfolio/static/media/node.24be793a.svg",
     "static/media/node_color.svg": "/Portfolio/static/media/node_color.30faabe3.svg",
-    "static/media/passwordgenerator_app.webp": "/Portfolio/static/media/passwordgenerator_app.368473ce.webp",
-    "static/media/quiz_app.webp": "/Portfolio/static/media/quiz_app.e8186222.webp",
+    "static/media/passwordgenerator_app.png": "/Portfolio/static/media/passwordgenerator_app.15d8f7d4.png",
+    "static/media/quiz_app.png": "/Portfolio/static/media/quiz_app.fae7b08f.png",
     "static/media/react.svg": "/Portfolio/static/media/react.f4cccc0c.svg",
     "static/media/react_color.svg": "/Portfolio/static/media/react_color.94e12eae.svg",
     "static/media/reactnative.svg": "/Portfolio/static/media/reactnative.f7e7efe0.svg",
@@ -48,12 +48,12 @@
     "static/media/redux_color.svg": "/Portfolio/static/media/redux_color.3c2eced2.svg",
     "static/media/signature.svg": "/Portfolio/static/media/signature.52c8eec0.svg",
     "static/media/sleepy_cat.svg": "/Portfolio/static/media/sleepy_cat.a19d3fc1.svg",
-    "static/media/smartwomen_app.webp": "/Portfolio/static/media/smartwomen_app.cf8550ca.webp"
+    "static/media/smartwomen_app.png": "/Portfolio/static/media/smartwomen_app.1182c85c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.dc08a4dc.js",
     "static/js/2.d0748181.chunk.js",
     "static/css/main.759077ea.chunk.css",
-    "static/js/main.346a80ce.chunk.js"
+    "static/js/main.3600c0bb.chunk.js"
   ]
 }
