@@ -15,7 +15,7 @@ const ProjectSet1 = [
         description: 'Livehealth is a medical records management app that gets medical reports from health providers directly to the app. You can manage & maintain your medical records right from the app.',
         link: 'https://play.google.com/store/apps/details?id=com.livehealth&hl=en',
         language: 'React Native',
-        source: require("../../../Common/Assets/images/livehealth_app.webp")
+        source: require("../../../Common/Assets/images/livehealth_app.png")
 
     },
     {
@@ -23,7 +23,7 @@ const ProjectSet1 = [
         description: 'Livehealth for Doctors is a mobile application built on Android for Lab users and Doctors. App that helps you manage your centre remotely. Get daily updates about your finances and collections.',
         link: 'https://play.google.com/store/apps/details?id=com.livehealthdoctorapp&hl=en',
         language: 'Android',
-        source: require('../../../Common/Assets/images/livehealthdoc_app.webp')
+        source: require('../../../Common/Assets/images/livehealthdoc_app.jpg')
 
     },
     {
@@ -31,7 +31,7 @@ const ProjectSet1 = [
         description: 'Al Aziziya is a Qatar based job recruitment application. It was a freelanced project which was built for both the platforms, Android and iOS using React Native.',
         link: 'https://github.com/Aaleen110/Aziziya',
         language: 'React Native',
-        source: require('../../../Common/Assets/images/aziziya_app.webp')
+        source: require('../../../Common/Assets/images/aziziya_app.png')
 
     }
 ]

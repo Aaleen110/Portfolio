@@ -21,7 +21,7 @@ const ProjectSet1 = [
         description: 'Livehealth is a medical records management app that gets medical reports from health providers directly to the app. You can manage & maintain your medical records right from the app.',
         link: 'https://play.google.com/store/apps/details?id=com.livehealth&hl=en',
         language: 'React Native',
-        source: require("../../../Common/Assets/images/livehealth_app.webp")
+        source: require("../../../Common/Assets/images/livehealth_app.png")
 
     },
     {
@@ -29,7 +29,7 @@ const ProjectSet1 = [
         description: 'Livehealth for Doctors is a mobile application built on Android for Lab users and Doctors. App that helps you manage your centre remotely. Get daily updates about your finances and collections.',
         link: 'https://play.google.com/store/apps/details?id=com.livehealthdoctorapp&hl=en',
         language: 'Android',
-        source: require('../../../Common/Assets/images/livehealthdoc_app.webp')
+        source: require('../../../Common/Assets/images/livehealthdoc_app.jpg')
 
     },
     {
@@ -37,7 +37,7 @@ const ProjectSet1 = [
         description: 'Al Aziziya is a Qatar based job recruitment application. It was a freelanced project which was built for both the platforms, Android and iOS using React Native.',
         link: 'https://github.com/Aaleen110/Aziziya',
         language: 'React Native',
-        source: require('../../../Common/Assets/images/aziziya_app.webp')
+        source: require('../../../Common/Assets/images/aziziya_app.png')
 
     }
 ]
@@ -49,7 +49,7 @@ const ProjectSet2 = [
         description: 'Women Security is a native Android based application made as a final year MBA-IT project. The app featured geolocation sharing, spy camera, spy audio, spy video and emergency call.',
         link: 'https://github.com/Aaleen110/SmartWomenSecurity',
         language: 'Android',
-        source: require('../../../Common/Assets/images/smartwomen_app.webp')
+        source: require('../../../Common/Assets/images/smartwomen_app.png')
 
     },
     {
@@ -57,7 +57,7 @@ const ProjectSet2 = [
         description: 'This app was created as a freelance college project. The user could create random password on the basis of select parameters and store it in his phone. The user could later acces his randomly created passwords stored locally.',
         link: 'https://github.com/Aaleen110/PasswordGenerator',
         language: 'Android',
-        source: require('../../../Common/Assets/images/passwordgenerator_app.webp')
+        source: require('../../../Common/Assets/images/passwordgenerator_app.png')
 
     },
     {
@@ -65,7 +65,7 @@ const ProjectSet2 = [
         description: 'Tech Quizzy was a fun project made to get people aware of Phishing and other threats we come accross on daily basis. The app features 3 stages, which are unlocked by beating the previous stage.',
         link: 'https://github.com/Aaleen110/Quiz',
         language: 'Android',
-        source: require('../../../Common/Assets/images/quiz_app.webp')
+        source: require('../../../Common/Assets/images/quiz_app.png')
 
     }
 ]
