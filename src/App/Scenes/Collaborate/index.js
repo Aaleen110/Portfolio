@@ -53,7 +53,7 @@ export default class Collaborate extends Component {
                                     <Text style={{ fontSize: 20, color: Colors.fontGrey, marginLeft: 8 }}>Name</Text>
                                     <View style={{ borderWidth: 1, borderColor: '#ccc', height: 40, borderRadius: 8, width: '100%' }}>
                                         <TextInput
-                                            style={{ height: 40, fontSize: 18, color: 'grey', outlineColor: "#ffffff00", outline: 'none', marginLeft: 8 }}
+                                            style={{ height: 40, fontSize: 18, color: 'grey', outlineColor: "#ffffff", outline: 'none', marginLeft: 8 }}
                                             autoCapitalize={true}
                                             selectionColor={'red'}
                                             onChangeText={name => { this.setState({ name }) }}
@@ -65,7 +65,7 @@ export default class Collaborate extends Component {
                                     <Text style={{ fontSize: 20, color: Colors.fontGrey, marginLeft: 8 }}>Email</Text>
                                     <View style={{ borderWidth: 1, borderColor: '#ccc', height: 40, borderRadius: 8, width: '100%' }}>
                                         <TextInput
-                                            style={{ height: 40, fontSize: 18, color: 'grey', outlineColor: "#ffffff00", marginLeft: 8, outline: 'none' }}
+                                            style={{ height: 40, fontSize: 18, color: 'grey', outlineColor: "#ffffff", marginLeft: 8, outline: 'none' }}
                                             autoCapitalize={true}
                                             selectionColor={'red'}
                                             onChangeText={email => { this.setState({ email }) }}
@@ -79,7 +79,7 @@ export default class Collaborate extends Component {
                                 <Text style={{ fontSize: 20, color: Colors.fontGrey, marginLeft: 8 }}>Message</Text>
                                 <View style={{ borderWidth: 1, borderColor: '#ccc', height: 200, borderRadius: 8 }}>
                                     <TextInput
-                                        style={{ height: 182, fontSize: 18, color: 'grey', outlineColor: "#ffffff00", outline: 'none', marginLeft: 8, marginTop: 8, marginRight: 8 }}
+                                        style={{ height: 182, fontSize: 18, color: 'grey', outlineColor: "#ffffff", outline: 'none', marginLeft: 8, marginTop: 8, marginRight: 8 }}
                                         autoCapitalize={true}
                                         selectionColor={'red'}
                                         multiline={true}

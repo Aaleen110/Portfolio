@@ -90,7 +90,7 @@ const ProjectSet3 = [
     },
     {
         name: 'Roche',
-        description: 'Roche was a custom kiosk applications that was installed in Android phones that communicate with POC instruments. Previously this was made possible by rooting the phone and installing the software. But this app uses Android Lock Task mode to cater the requiredment of a Kiosk',
+        description: 'Roche was a custom kiosk applications that was installed in Android phones that communicate with POC instruments. Previously this was made possible by rooting the phone and installing the software. But this app uses Android Lock Task mode to cater the requirement of a Kiosk',
         link: '',
         language: 'Android-Kiosk',
         source: require('../../../Common/Assets/images/roche.png')
@@ -140,7 +140,7 @@ export default class Projects extends Component {
 
                             <View style={{ position: 'absolute', top: -50, right: 20, height: 100, width: 100, backgroundColor: "#fff", justifyContent: 'center', alignItems: 'center', borderColor: "#403F3F", borderWidth: 1, borderRadius: 12, }}>
                                 <Image
-                                    resizeMode={'center'}
+                                    resizeMode={'contain'}
                                     style={{ height: 60, width: 60, margin: 8, alignSelf: 'center' }}
                                     source={prop.source} />
                             </View>
