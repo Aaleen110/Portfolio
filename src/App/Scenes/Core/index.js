@@ -10,7 +10,7 @@ export default class CorePrinciples extends Component {
             <View style={{ flex: 1, }}>
                 <View style={{ width: win.width, height: win.height / 1.2, justifyContent: 'center', alignItems: 'center', }}>
                     <Image
-                        style={{ width: 650, height: 650, borderRadius: 78, alignSelf: 'center' }}
+                        style={{ width: 800, height: 800, borderRadius: 78, alignSelf: 'center' }}
                         source={require('../../../Common/Assets/images/core_principles.png')}
                     />
                 </View>

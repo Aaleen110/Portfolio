@@ -38,7 +38,7 @@ export default class Footer extends Component {
                         {isHovered => (
                             <Ripple
                                 onPress={() => {
-                                    window.open("https://drive.google.com/file/d/1zIURqTNftiz6hVXQHHBCStF9pDPtveRz/view?usp=sharing", '_blank');
+                                    window.open("https://drive.google.com/file/d/1Cp7-l3rAQGRNqp0_mX7tEP9B09qyoE6V/view?usp=sharing", '_blank');
                                 }}
                                 style={{
                                     height: 40, width: 160, borderRadius: 30, marginTop: 16, justifyContent: 'center', margin: 16,
