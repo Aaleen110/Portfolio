@@ -39,21 +39,25 @@ export default class Collaborate extends Component {
     }
 
     sendEnquiryDetails = () => {
-        this.setState({ isLoading: true })
-        firestore.collection("contact_us").add({
-            name: this.state.name,
-            email: this.state.email,
-            message: this.state.message
-        })
-            .then((docRef) => {
-                console.log("Document written with ID: ", docRef.id);
-                this.setState({ showThanksModal: true, isLoading: false })
+        if (this.state.name.length && this.state.email.length && this.state.message.length) {
+            this.setState({ isLoading: true })
+            firestore.collection("contact_us").add({
+                name: this.state.name,
+                email: this.state.email,
+                message: this.state.message
             })
-            .catch((error) => {
-                alert('Something went wrong');
-                this.setState({ isLoading: false })
-                console.error("Error adding document: ", error);
-            });
+                .then((docRef) => {
+                    console.log("Document written with ID: ", docRef.id);
+                    this.setState({ showThanksModal: true, isLoading: false })
+                })
+                .catch((error) => {
+                    alert('Something went wrong');
+                    this.setState({ isLoading: false })
+                    console.error("Error adding document: ", error);
+                });
+        }else{
+            alert('Please fill all the required fields before submitting.')
+        }
     }
 
     render() {
