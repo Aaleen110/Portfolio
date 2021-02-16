@@ -9,7 +9,11 @@ import Skills from './Scenes/Skills';
 import Experience from './Scenes/Experience';
 import CorePrinciples from './Scenes/Core';
 import About from './Scenes/About';
-import Landing from './Scenes/Landing'
+import Landing from './Scenes/Landing';
+
+import firebase from "firebase/app";
+import "firebase/firestore";
+
 
 export default class App extends Component {
   render() {

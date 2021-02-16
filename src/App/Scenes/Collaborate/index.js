@@ -5,6 +5,7 @@ import {
     View,
     Dimensions,
     TextInput,
+    ActivityIndicator
 } from 'react-native';
 import ReactDOM from 'react-dom';
 import Colors from '../../../Common/Constants/Colors'
@@ -17,6 +18,7 @@ import Modal from 'modal-enhanced-react-native-web';
 
 import TitleHead from '../../../Components/TitleHead';
 import sleepy_cat from '../../../Common/Assets/svgs/misc/sleepy_cat.svg'
+import { firestore } from '../../../conifg/firebase';
 
 
 const win = Dimensions.get('window');
@@ -27,9 +29,31 @@ export default class Collaborate extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            showThanksModal: false
+            showThanksModal: false,
+            name: '',
+            email: '',
+            message: '',
+            isLoading: false
 
         }
+    }
+
+    sendEnquiryDetails = () => {
+        this.setState({ isLoading: true })
+        firestore.collection("contact_us").add({
+            name: this.state.name,
+            email: this.state.email,
+            message: this.state.message
+        })
+            .then((docRef) => {
+                console.log("Document written with ID: ", docRef.id);
+                this.setState({ showThanksModal: true, isLoading: false })
+            })
+            .catch((error) => {
+                alert('Something went wrong');
+                this.setState({ isLoading: false })
+                console.error("Error adding document: ", error);
+            });
     }
 
     render() {
@@ -96,14 +120,20 @@ export default class Collaborate extends Component {
                                 >
                                     {isHovered => (
                                         <Ripple
-                                            onPress={() => { this.setState({ showThanksModal: true }) }}
+                                            onPress={() => {
+                                                this.sendEnquiryDetails();
+                                            }}
                                             style={{
                                                 height: 46, width: 120, borderRadius: 8, marginTop: 36, justifyContent: 'center', margin: 16, marginRight: 32,
                                                 backgroundColor: isHovered ? '#403F3F' : '#403F3F',
                                                 borderWidth: 1.5,
                                                 borderColor: '#403F3F'
                                             }}>
-                                            <Text style={{ color: isHovered ? '#fff' : '#fff', fontSize: 18, fontWeight: 'bold', alignSelf: 'center', }}>Send</Text>
+                                            {this.state.isLoading ?
+                                                <ActivityIndicator size="small" color="#fff" />
+                                                :
+                                                <Text style={{ color: isHovered ? '#fff' : '#fff', fontSize: 18, fontWeight: 'bold', alignSelf: 'center', }}>Send</Text>
+                                            }
                                         </Ripple>
                                     )}
                                 </Hoverable>
